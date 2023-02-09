@@ -1,5 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
     font-family: 'Ubuntu', sans-serif;
 }
+body {
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); 
+}
+nav{
+    background: transparent;
+    height: 90px;
+    width: 98%;
+    top: 0px;
+    margin: 30px;
+  }
+  label.logo{
+    line-height: 80px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  label.logo:hover{
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2F4153, #3A4B5C);  
+    background: linear-gradient(to right, #2F4153, #3A4B5C); 
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    margin-top: 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: black;
+  }
+
+  a:hover{
+    background: #878892;
+    transition: .5s;
+  }
+
+  .bars {
+    color: black;
+  }
+
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
