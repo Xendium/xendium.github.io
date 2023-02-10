@@ -73,8 +73,18 @@ nav{
   }
   section{
     padding-left: 50%;
-    margin-top: 5%;
+    margin-top: -220px;
+    font-size: 20px;
     background-repeat: no-repeat;
+    border: 5px white solid;
+    border-radius: 8px;
+  }
+  .home-picture{
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  .content{
+    margin: 40px;
   }
   @media (max-width: 952px){
     label.logo{
@@ -127,7 +137,11 @@ nav{
         background: #2F3136;
     }
     section{
-        display: absolute;
         padding-left: 150px;
+        margin-top:100px;
+    }
+    .home-picture{
+      margin-top: 20px;
+      margin-right: 100px;
     }
 }
