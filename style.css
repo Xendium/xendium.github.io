@@ -166,4 +166,7 @@ nav{
       border-radius: 4px;
       justify-content: center;
     }
+    .footer{
+      bottom: -5px;
+    }
 }
