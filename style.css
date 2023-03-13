@@ -89,19 +89,6 @@ nav{
   .content{
     margin: 40px;
   }
-  footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #2d2f34;
-    height: auto;
-    width: 100%;
-    padding-top: 40px;
-    color: #fff;
-    text-align: center;
-    font-size: 13px;
-  }
   @media (max-width: 952px){
     label.logo{
       font-size: 30px;
@@ -165,8 +152,5 @@ nav{
       border: none;
       border-radius: 4px;
       justify-content: center;
-    }
-    .footer{
-      bottom: -5px;
     }
 }
